@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || ''
+const BASE = 'https://fraud-detectors-backend.onrender.com'
 
 async function post(endpoint, body) {
   const res = await fetch(BASE + endpoint, {
